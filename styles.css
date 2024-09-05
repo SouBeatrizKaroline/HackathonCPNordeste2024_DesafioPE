@@ -1,0 +1,182 @@
+// styles.scss
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 20px;
+    background-color: #7A3D62;
+    border-bottom: 1px solid #ccc;
+
+    nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        gap: 3em;
+        font-size: 2em;
+
+        li {
+            a {
+                text-decoration: none;
+                color: #fff;
+                padding: 20px 30px;
+                &:hover {
+                    background-color: #CB71A8;
+                    border-radius: 100px;
+                }
+            }
+        }
+    }
+
+    .login {
+        display: flex;
+        align-items: center;
+
+        .login-icon {
+            height: 30px;
+            margin-right: 10px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #fff;
+        }
+    }
+}
+
+main {
+    max-width: auto;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #CB71A8;
+
+    .image-text {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: 20px;
+        gap: 20px;
+
+        .main-image {
+            flex: 1;
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .description {
+            flex: 1;
+            text-align: left;
+
+            h1 {
+                margin-top: 0;
+                font-size: 4em;
+            }
+
+            p {
+                font-size: 2em;
+                line-height: 1.5;
+            }
+        }
+    }
+
+    .services {
+        margin-top: 40px;
+
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .service-filter {
+            text-align: center;
+            margin-bottom: 20px;
+
+            label {
+                margin-right: 10px;
+            }
+
+            select {
+                padding: 10px;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                font-size: 1em;
+            }
+        }
+
+        .service-list {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+
+            li {
+                margin-bottom: 10px;
+            }
+
+            a {
+                text-decoration: none;
+                color: #333;
+                display: block;
+                padding: 10px;
+                background-color: #fff;
+                border: 1px solid #ddd;
+                border-radius: 4px;
+                transition: background-color 0.3s;
+
+                &:hover {
+                    background-color: #f4f4f4;
+                }
+            }
+        }
+    }
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3em;
+    background-color: #7A3D62;
+    border-top: 1px solid #ccc;
+
+    .logo-governo {
+        .governo-logo {
+            height: 100px;
+        }
+    }
+
+    .footer-links,
+    .footer-info {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+
+        a {
+            text-decoration: none;
+            color: #fff;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .image-text {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .description {
+        text-align: center;
+    }
+}

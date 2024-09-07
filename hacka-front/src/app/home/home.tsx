@@ -6,6 +6,8 @@ import empreendedora from '../../shared/images/empreendedora.png';
 import emprego from '../../shared/images/emprego.png';
 import seguranca from '../../shared/images/seguranca.png';
 import educacao from '../../shared/images/educacao.png';
+import draw from "../../shared/images/draw.png";
+import { Footer } from "../../shared/components/Footer";
 
 
 export const HomePage = () => {
@@ -13,7 +15,13 @@ export const HomePage = () => {
     return (
         <main>
             <Nav />
-            <Flex align={"center"}>
+            <Flex align={"center"}
+                bgImage={draw}
+                bgPosition="right"
+                bgRepeat="no-repeat"
+                bgSize="contain"
+                height="100%"
+            >
                 <Box my="90px" ml={{base: "10px", md: "25px", lg:"50px"}} mr="0px">
                     <Flex align={"center"} my="30px">
                         <Box pos="relative" boxSize="170px" mr="20px">
@@ -32,14 +40,6 @@ export const HomePage = () => {
                         </Box>
                         <Box pos="relative" boxSize="170px">
                             <Image src={medico} boxSize="full" color='linear(to-t, black.200, transparent.500)' />
-                            {/* <Box
-                                position="absolute"
-                                top="0"
-                                left="0"
-                                w="100%"
-                                h="100%"
-                                bgGradient="linear(to-b, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3))"
-                            /> */}
                             <Text pos="absolute" top="85%" left="50%" color="white" transform="translate(-50%,-50%)">
                                 Saúde
                             </Text>
@@ -49,28 +49,12 @@ export const HomePage = () => {
                     <Flex align={"center"} my="30px">
                         <Box pos="relative" boxSize="170px" mr="20px">
                             <Image src={empreendedora} boxSize="full" color='linear(to-t, black.200, transparent.500)' />
-                            {/* <Box
-                                position="absolute"
-                                top="0"
-                                left="0"
-                                w="100%"
-                                h="100%"
-                                bgGradient="linear(to-b, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7))"
-                            /> */}
                             <Text pos="absolute" top="85%" left="50%" color="white" transform="translate(-50%,-50%)">
                                 Empreendedorismo
                             </Text>
                         </Box>
                         <Box pos="relative" boxSize="170px">
                             <Image src={emprego} boxSize="full" color='linear(to-t, black.200, transparent.500)' />
-                            {/* <Box
-                                position="absolute"
-                                top="0"
-                                left="0"
-                                w="100%"
-                                h="100%"
-                                bgGradient="linear(to-b, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3))"
-                            /> */}
                             <Text pos="absolute" top="85%" left="50%" color="white" transform="translate(-50%,-50%)">
                                 Emprego
                             </Text>
@@ -95,14 +79,6 @@ export const HomePage = () => {
                         </Box>
                         <Box pos="relative" boxSize="170px">
                             <Image src={educacao} boxSize="full" color='linear(to-t, black.200, transparent.500)' />
-                            {/* <Box
-                                position="absolute"
-                                top="0"
-                                left="0"
-                                w="100%"
-                                h="100%"
-                                bgGradient="linear(to-b, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3))"
-                            /> */}
                             <Text pos="absolute" top="85%" left="50%" color="white" transform="translate(-50%,-50%)">
                                 Educação
                             </Text>
@@ -116,6 +92,7 @@ export const HomePage = () => {
                     </Text>
                 </Box>
             </Flex>
+            <Footer />
         </main>
     )
 }

@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.js": "/hackathoncpnordeste2024_desafiope/static/js/main.3cbf33ce.js",
+    "static/media/educacao.png": "/hackathoncpnordeste2024_desafiope/static/media/educacao.bbe4d413db52b6e322ce.png",
+    "static/media/empreendedora.png": "/hackathoncpnordeste2024_desafiope/static/media/empreendedora.17b097fad9ce6fae0404.png",
+    "static/media/emprego.png": "/hackathoncpnordeste2024_desafiope/static/media/emprego.262fee26f944dc879bf6.png",
+    "static/media/seguranca.png": "/hackathoncpnordeste2024_desafiope/static/media/seguranca.646ed75064b2d59da71b.png",
+    "static/media/medico.png": "/hackathoncpnordeste2024_desafiope/static/media/medico.6a447766172f22911959.png",
+    "static/media/draw.png": "/hackathoncpnordeste2024_desafiope/static/media/draw.318c3359984cba149350.png",
+    "static/media/logoDelas.png": "/hackathoncpnordeste2024_desafiope/static/media/logoDelas.0c4328b59267da652c29.png",
+    "static/media/logoPE.png": "/hackathoncpnordeste2024_desafiope/static/media/logoPE.215690ef0a3dbf0e7e27.png",
+    "static/media/geriatria.png": "/hackathoncpnordeste2024_desafiope/static/media/geriatria.0d136e8f60fd30058f33.png",
+    "index.html": "/hackathoncpnordeste2024_desafiope/index.html",
+    "main.3cbf33ce.js.map": "/hackathoncpnordeste2024_desafiope/static/js/main.3cbf33ce.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.3cbf33ce.js"
+  ]
+}

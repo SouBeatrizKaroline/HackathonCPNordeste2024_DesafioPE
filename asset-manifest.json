@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/HackathonCPNordeste2024_DesafioPE/app/static/js/main.cf0cb030.js",
+    "main.js": "/HackathonCPNordeste2024_DesafioPE/app/static/js/main.d55c98d4.js",
     "static/media/educacao.png": "/HackathonCPNordeste2024_DesafioPE/app/static/media/educacao.bbe4d413db52b6e322ce.png",
     "static/media/empreendedora.png": "/HackathonCPNordeste2024_DesafioPE/app/static/media/empreendedora.17b097fad9ce6fae0404.png",
     "static/media/emprego.png": "/HackathonCPNordeste2024_DesafioPE/app/static/media/emprego.262fee26f944dc879bf6.png",
@@ -11,9 +11,9 @@
     "static/media/logoPE.png": "/HackathonCPNordeste2024_DesafioPE/app/static/media/logoPE.215690ef0a3dbf0e7e27.png",
     "static/media/geriatria.png": "/HackathonCPNordeste2024_DesafioPE/app/static/media/geriatria.0d136e8f60fd30058f33.png",
     "index.html": "/HackathonCPNordeste2024_DesafioPE/app/index.html",
-    "main.cf0cb030.js.map": "/HackathonCPNordeste2024_DesafioPE/app/static/js/main.cf0cb030.js.map"
+    "main.d55c98d4.js.map": "/HackathonCPNordeste2024_DesafioPE/app/static/js/main.d55c98d4.js.map"
   },
   "entrypoints": [
-    "static/js/main.cf0cb030.js"
+    "static/js/main.d55c98d4.js"
   ]
 }

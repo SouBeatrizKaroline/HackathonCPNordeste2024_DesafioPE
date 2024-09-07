@@ -20,27 +20,26 @@ export const EmpreendedorismoPage = () => {
                 <Box m="50px">
                     <Title text="Empreendedorismo" />
                     <Text fontSize={{base: "large", md: "x-large", lg: "xx-large"}}>
-                        Você não está sozinha! <br />
-                        Aqui você encontra apoio e informações sobre como lidar com a violência contra a mulher.
+                    Tudo o que você precisa para empreender, em um só lugar. <br />
+                    Decole seu negócio com o apoio do Governo de Pernambuco! Cursos, crédito especial e uma comunidade de empreendedores te esperando.
                     </Text>
                     <Flex align="center" justifyContent="center">
                         <Box>
                             <Link href="/" isExternal>
                                 <Button my="30px" _hover={{bgColor: "rgba(138, 45, 41, 1)"}} height="144px" fontSize={{base: "large", md: "x-large", lg: "xx-large"}} width="614.93px" color="white" bgColor="rgba(208, 115, 111, 1)" border="2px" borderStyle="solid" borderColor="rgba(223, 41, 53, 1)" borderRadius="40px">
-                                    DISQUE 180
-                                    <Image src={whatsapp} boxSize="100px"></Image>
+                                    Programas de Apoio
                                 </Button>
                             </Link>
                             <Link href="/" isExternal>
                                 <Button my="30px" _hover={{bgColor: "rgba(138, 45, 41, 1)"}} height="144px" fontSize={{base: "large", md: "x-large", lg: "xx-large"}} width="614.93px" color="white" bgColor="rgba(208, 115, 111, 1)" border="2px" borderStyle="solid" borderColor="rgba(223, 41, 53, 1)" borderRadius="40px">
-                                    Fale com a polícia do estado pelo chat
+                                    Crédito do Governo Estadual
                                 </Button>
                             </Link>
                         </Box>
                         <Box>
                             <Link href="/" isExternal>
                                 <Button my="30px" _hover={{bgColor: "rgba(138, 45, 41, 1)"}} height="144px" fontSize={{base: "large", md: "x-large", lg: "xx-large"}} width="614.93px" color="white" bgColor="rgba(208, 115, 111, 1)" border="2px" borderStyle="solid" borderColor="rgba(223, 41, 53, 1)" borderRadius="40px">
-                                    Conheça todos os tipos de violência
+                                    Cursos profissionalizantes
                                 </Button>
                             </Link>
                             <Link href="/" isExternal>

@@ -9,7 +9,7 @@ import { SegurancaPage } from "./app/seguranca/seguranca";
 
 export const App = () => {
   return (
-    <HashRouter>
+    <BrowserRouter>
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/sobre" element={<AboutPage />} />
@@ -19,6 +19,6 @@ export const App = () => {
           <Route path="/emprego" element={<EmpregoPage />} />
           <Route path="/empreendedorismo" element={<EmpreendedorismoPage />} />
       </Routes>
-    </HashRouter >
+    </BrowserRouter >
   );
 }
